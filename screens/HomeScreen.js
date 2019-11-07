@@ -2,6 +2,9 @@ import * as WebBrowser from 'expo-web-browser';
 import React from 'react';
 import { StyleSheet, Text, View, Dimensions, Image, Animated, PanResponder } from 'react-native';
 
+import NopeComponent from '../components/NopeStamp';
+import LikeComponent from '../components/LikeStamp';
+import EndComponent from '../components/EndMessage';
 
 const SCREEN_HEIGHT = Dimensions.get('window').height
 const SCREEN_WIDTH = Dimensions.get('window').width
@@ -117,16 +120,11 @@ export default class HomeScreen extends React.Component {
         return (
           <Animated.View
             {...this.PanResponder.panHandlers}
-            key={item.id} style={[this.rotateAndTranslate, { height: SCREEN_HEIGHT - 120, width: SCREEN_WIDTH , padding: 20, position: 'absolute' , ...styles.imageContainer}]}>
-            <Animated.View style={{ opacity: this.likeOpacity, transform: [{ rotate: '-30deg' }], position: 'absolute', top: 50, left: 40, zIndex: 1000 }}>
-              <Text style={styles.Like}>LIKE</Text>
+            key={item.id} style={[this.rotateAndTranslate, { height: SCREEN_HEIGHT - 120, width: SCREEN_WIDTH, padding: 20, position: 'absolute', ...styles.imageContainer }]}>
+           
+            <LikeComponent style={{ likeAnimation: { ...styles.likeAnimation, opacity: this.likeOpacity }, Like: styles.Like }} />
+            <NopeComponent style={{ nopeAnimation: { ...styles.nopeAnimation, opacity: this.dislikeOpacity}, Nope: styles.Nope }} />
 
-            </Animated.View>
-
-            <Animated.View style={{ opacity: this.dislikeOpacity, transform: [{ rotate: '30deg' }], position: 'absolute', top: 50, right: 40, zIndex: 1000 }}>
-              <Text style={styles.Nope}>NOPE</Text>
-
-            </Animated.View >
 
             <Image
               style={styles.image}
@@ -144,15 +142,10 @@ export default class HomeScreen extends React.Component {
               transform: [{ scale: this.nextCardScale }],
               height: SCREEN_HEIGHT - 120, width: SCREEN_WIDTH, padding: 10, position: 'absolute'
             }]}>
-            <Animated.View style={styles.likeAnimation}>
-              <Text style={styles.Like}>LIKE</Text>
+           
+            <LikeComponent style={{ likeAnimation: styles.likeAnimation, Like: styles.Like }} />
+            <NopeComponent style={{ nopeAnimation: styles.nopeAnimation, Nope: styles.Nope }} />
 
-            </Animated.View>
-
-            <Animated.View style={styles.nopeAnimation}>
-              <Text style={styles.Nope}>NOPE</Text>
-
-            </Animated.View>
 
             <Image
               style={styles.image}
@@ -167,9 +160,10 @@ export default class HomeScreen extends React.Component {
   render() {
     return (
       <View style={{ flex: 1, }}>
-    
+  
         <View style={{ flex: 1 }}>
           {this.renderTech()}
+          {this.state.currentIndex === Tech.length ? <EndComponent style={{ height: SCREEN_HEIGHT - 120, width: SCREEN_WIDTH, padding: 20, justifyContent: 'center', alignItems: 'center' }}/>: null}
         </View>
         <View style={{ height: 60 }}>
 
@@ -194,7 +188,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   imageContainer: {
- 
+
   },
   image: {
     flex: 1, height: null,

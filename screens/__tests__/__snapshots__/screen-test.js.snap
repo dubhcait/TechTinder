@@ -1,0 +1,958 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeScreen /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 1214,
+          "opacity": 0,
+          "padding": 10,
+          "position": "absolute",
+          "transform": Array [
+            Object {
+              "scale": 0.7,
+            },
+          ],
+          "width": 750,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "left": 40,
+            "opacity": 0,
+            "position": "absolute",
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "-30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "green",
+              "borderWidth": 1,
+              "color": "green",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          LIKE
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "opacity": 0,
+            "position": "absolute",
+            "right": 40,
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "red",
+              "borderWidth": 1,
+              "color": "red",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          NOPE
+        </Text>
+      </View>
+      <Image
+        source={1}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 20,
+            "flex": 1,
+            "height": null,
+            "resizeMode": "contain",
+            "width": null,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "height": 1214,
+          "opacity": 0,
+          "padding": 10,
+          "position": "absolute",
+          "transform": Array [
+            Object {
+              "scale": 0.7,
+            },
+          ],
+          "width": 750,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "left": 40,
+            "opacity": 0,
+            "position": "absolute",
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "-30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "green",
+              "borderWidth": 1,
+              "color": "green",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          LIKE
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "opacity": 0,
+            "position": "absolute",
+            "right": 40,
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "red",
+              "borderWidth": 1,
+              "color": "red",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          NOPE
+        </Text>
+      </View>
+      <Image
+        source={1}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 20,
+            "flex": 1,
+            "height": null,
+            "resizeMode": "contain",
+            "width": null,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "height": 1214,
+          "opacity": 0,
+          "padding": 10,
+          "position": "absolute",
+          "transform": Array [
+            Object {
+              "scale": 0.7,
+            },
+          ],
+          "width": 750,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "left": 40,
+            "opacity": 0,
+            "position": "absolute",
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "-30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "green",
+              "borderWidth": 1,
+              "color": "green",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          LIKE
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "opacity": 0,
+            "position": "absolute",
+            "right": 40,
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "red",
+              "borderWidth": 1,
+              "color": "red",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          NOPE
+        </Text>
+      </View>
+      <Image
+        source={1}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 20,
+            "flex": 1,
+            "height": null,
+            "resizeMode": "contain",
+            "width": null,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "height": 1214,
+          "opacity": 0,
+          "padding": 10,
+          "position": "absolute",
+          "transform": Array [
+            Object {
+              "scale": 0.7,
+            },
+          ],
+          "width": 750,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "left": 40,
+            "opacity": 0,
+            "position": "absolute",
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "-30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "green",
+              "borderWidth": 1,
+              "color": "green",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          LIKE
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "opacity": 0,
+            "position": "absolute",
+            "right": 40,
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "red",
+              "borderWidth": 1,
+              "color": "red",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          NOPE
+        </Text>
+      </View>
+      <Image
+        source={1}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 20,
+            "flex": 1,
+            "height": null,
+            "resizeMode": "contain",
+            "width": null,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "height": 1214,
+          "opacity": 0,
+          "padding": 10,
+          "position": "absolute",
+          "transform": Array [
+            Object {
+              "scale": 0.7,
+            },
+          ],
+          "width": 750,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "left": 40,
+            "opacity": 0,
+            "position": "absolute",
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "-30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "green",
+              "borderWidth": 1,
+              "color": "green",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          LIKE
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "opacity": 0,
+            "position": "absolute",
+            "right": 40,
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "red",
+              "borderWidth": 1,
+              "color": "red",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          NOPE
+        </Text>
+      </View>
+      <Image
+        source={1}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 20,
+            "flex": 1,
+            "height": null,
+            "resizeMode": "contain",
+            "width": null,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "height": 1214,
+          "opacity": 0,
+          "padding": 10,
+          "position": "absolute",
+          "transform": Array [
+            Object {
+              "scale": 0.7,
+            },
+          ],
+          "width": 750,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "left": 40,
+            "opacity": 0,
+            "position": "absolute",
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "-30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "green",
+              "borderWidth": 1,
+              "color": "green",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          LIKE
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "opacity": 0,
+            "position": "absolute",
+            "right": 40,
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "red",
+              "borderWidth": 1,
+              "color": "red",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          NOPE
+        </Text>
+      </View>
+      <Image
+        source={1}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 20,
+            "flex": 1,
+            "height": null,
+            "resizeMode": "contain",
+            "width": null,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "height": 1214,
+          "opacity": 0,
+          "padding": 10,
+          "position": "absolute",
+          "transform": Array [
+            Object {
+              "scale": 0.7,
+            },
+          ],
+          "width": 750,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "left": 40,
+            "opacity": 0,
+            "position": "absolute",
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "-30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "green",
+              "borderWidth": 1,
+              "color": "green",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          LIKE
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "opacity": 0,
+            "position": "absolute",
+            "right": 40,
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "red",
+              "borderWidth": 1,
+              "color": "red",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          NOPE
+        </Text>
+      </View>
+      <Image
+        source={1}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 20,
+            "flex": 1,
+            "height": null,
+            "resizeMode": "contain",
+            "width": null,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "height": 1214,
+          "opacity": 0,
+          "padding": 10,
+          "position": "absolute",
+          "transform": Array [
+            Object {
+              "scale": 0.7,
+            },
+          ],
+          "width": 750,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "left": 40,
+            "opacity": 0,
+            "position": "absolute",
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "-30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "green",
+              "borderWidth": 1,
+              "color": "green",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          LIKE
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "opacity": 0,
+            "position": "absolute",
+            "right": 40,
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "red",
+              "borderWidth": 1,
+              "color": "red",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          NOPE
+        </Text>
+      </View>
+      <Image
+        source={1}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 20,
+            "flex": 1,
+            "height": null,
+            "resizeMode": "contain",
+            "width": null,
+          }
+        }
+      />
+    </View>
+    <View
+      onMoveShouldSetResponder={[Function]}
+      onMoveShouldSetResponderCapture={[Function]}
+      onResponderEnd={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderReject={[Function]}
+      onResponderRelease={[Function]}
+      onResponderStart={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onStartShouldSetResponderCapture={[Function]}
+      style={
+        Object {
+          "height": 1214,
+          "padding": 20,
+          "position": "absolute",
+          "transform": Array [
+            Object {
+              "rotate": "0deg",
+            },
+            Object {
+              "translateX": 0,
+            },
+            Object {
+              "translateY": 0,
+            },
+          ],
+          "width": 750,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "left": 40,
+            "opacity": 0,
+            "position": "absolute",
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "-30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "green",
+              "borderWidth": 1,
+              "color": "green",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          LIKE
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "opacity": 0,
+            "position": "absolute",
+            "right": 40,
+            "top": 50,
+            "transform": Array [
+              Object {
+                "rotate": "30deg",
+              },
+            ],
+            "zIndex": 1000,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "borderColor": "red",
+              "borderWidth": 1,
+              "color": "red",
+              "fontSize": 32,
+              "fontWeight": "800",
+              "padding": 10,
+            }
+          }
+        >
+          NOPE
+        </Text>
+      </View>
+      <Image
+        source={1}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 20,
+            "flex": 1,
+            "height": null,
+            "resizeMode": "contain",
+            "width": null,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "height": 60,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<LinkScreen />\` renders correctly 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "paddingTop": 15,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "padding": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 140,
+          }
+        }
+      >
+        <Image
+          source={1}
+          style={
+            Object {
+              "resizeMode": "contain",
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+            "marginVertical": 20,
+            "textAlign": "center",
+          }
+        }
+      >
+        This is a personal project and just a bit of fun.
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+            "marginVertical": 20,
+            "textAlign": "center",
+          }
+        }
+      >
+        However, if you would like create an issue on my repo to leave feedback, It would make my day.
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+            "marginVertical": 20,
+            "textAlign": "center",
+          }
+        }
+      >
+        The code for this app is avalible
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "fontSize": 18,
+            "fontWeight": "800",
+            "marginVertical": 20,
+            "textAlign": "center",
+          }
+        }
+      >
+         here.
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;

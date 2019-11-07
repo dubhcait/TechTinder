@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabBarIcon /> home renders correctly 1`] = `
+<Image
+  source={1}
+  style={
+    Array [
+      Object {
+        "height": 40,
+        "resizeMode": "contain",
+        "width": 40,
+      },
+      Object {
+        "opacity": 0.6,
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<TabBarIcon /> link renders correctly 1`] = `
+<Image
+  source={1}
+  style={
+    Array [
+      Object {
+        "height": 40,
+        "resizeMode": "contain",
+        "width": 40,
+      },
+      Object {
+        "opacity": 0.6,
+      },
+    ]
+  }
+/>
+`;
+
+exports[`renders correctly 1`] = `
+<Text
+  style={
+    Array [
+      undefined,
+      Object {
+        "fontFamily": "space-mono",
+      },
+    ]
+  }
+>
+  Snapshot test!
+</Text>
+`;

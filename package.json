@@ -6,10 +6,22 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "test": "jest --watchAll"
+    "test": "jest"
   },
   "jest": {
-    "preset": "jest-expo"
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|sentry-expo|native-base)"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/coverage/**",
+      "!**/node_modules/**",
+      "!**/babel.config.js",
+      "!**/jest.setup.js"
+    ]
+
   },
   "dependencies": {
     "@expo/samples": "~3.0.3",
@@ -29,7 +41,8 @@
   },
   "devDependencies": {
     "babel-preset-expo": "^7.0.0",
-    "jest-expo": "^35.0.0"
+    "jest-expo": "^35.0.0",
+    "react-test-renderer": "^16.8.6"
   },
   "private": true
 }

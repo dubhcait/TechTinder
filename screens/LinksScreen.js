@@ -11,7 +11,7 @@ export default function LinksScreen() {
          </View>
       
       <Text style={styles.text}>This is a personal project and just a bit of fun.</Text>
-      <Text style={styles.text} >However, if you would like create an issuoe en my repo to leave feedback, It would make my day.</Text>
+      <Text style={styles.text} >However, if you would like create an issue on my repo to leave feedback, It would make my day.</Text>
      
     <Text style={styles.text}>
       The code for this app is avalible 
