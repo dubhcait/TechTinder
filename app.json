@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "map game",
-    "slug": "map-app",
+    "name": "Tech Tinder game",
+    "slug": "techtinder",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [
@@ -25,6 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "A personal project to learn some react-native",
+    "githubUrl": "https://github.com/dubhcait/TechTinder"
   }
 }
